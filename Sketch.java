@@ -88,15 +88,13 @@ public class Sketch extends PApplet {
 
     for (int row = 0; row < intRowCount; row++){
 
-      int cellRowCount = 0;
       int intContBlocks = 0;
       int intMax = 0;
 
       for (int column = 0; column < intColumnCount; column++) {
         if (intGrid[row][column] == 1) {
           intContBlocks ++;
-          cellRowCount ++;
-
+          
           if (intContBlocks > intMax) {
             intMax = intContBlocks;
           }
