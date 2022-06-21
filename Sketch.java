@@ -1,3 +1,8 @@
+/**
+ * Description: This program draws an interactive grid and outputs the amount of cells selected in each column
+ * @author: A. Ng
+ */
+
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
